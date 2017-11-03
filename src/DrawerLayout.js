@@ -173,7 +173,7 @@ export default class DrawerLayout extends Component {
     return (
       <View
         style={{ flex: 1, backgroundColor: 'transparent' }}
-        {...this._panResponder.panHandlers}
+        /*{...this._panResponder.panHandlers}*/
       >
         <Animated.View style={styles.main}>
           {this.props.children}
